@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f4aef4a.css",
+    "main.js": "/static/js/main.7166be63.js",
+    "static/js/787.2177981e.chunk.js": "/static/js/787.2177981e.chunk.js",
+    "static/media/employment_icons.png": "/static/media/employment_icons.3c90fb639ac3ddc54200.png",
+    "static/media/mountains.png": "/static/media/mountains.794c0de52398bb46a7e2.png",
+    "index.html": "/index.html",
+    "main.7f4aef4a.css.map": "/static/css/main.7f4aef4a.css.map",
+    "main.7166be63.js.map": "/static/js/main.7166be63.js.map",
+    "787.2177981e.chunk.js.map": "/static/js/787.2177981e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f4aef4a.css",
+    "static/js/main.7166be63.js"
+  ]
+}
