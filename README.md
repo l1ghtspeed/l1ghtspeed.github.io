@@ -1,2 +1,2 @@
-# l1ghtspeed.github.ui
+# l1ghtspeed.github.io
 Personal website
