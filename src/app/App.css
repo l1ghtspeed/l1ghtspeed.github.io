@@ -1,0 +1,170 @@
+
+.App {
+  margin: auto;
+  max-width: 890px;
+  color: #585764;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Social-link {
+  margin: 0px 10px 0px 10px;
+}
+
+
+.Header {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-family: 'Raleway';
+}
+
+.Col-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 390px;
+}
+
+.Col-left h1 {
+ font-family: 'Josefin Sans'; 
+ font-size: 64px;
+ margin-bottom: 0px;
+}
+
+
+.Col-right {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+
+
+.Subtitle {
+  font-family: 'Josefin Sans';
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 64px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #585764;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Content-column {
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 300;
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+
+
+
+
+.Navbar {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+
+.Navbar .Subtitle {
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-size: 28px;
+}
+
+
+@media only screen and (max-width: 890px) {
+  .Body {
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .Header {
+    margin-left: 30px;
+    padding-top: 50px;
+    margin-right: -10px;
+  }
+  .Body-image {
+    display: none;
+  }
+  .Col-left {
+    width: 100%;
+    padding-left: 30px;
+
+  }
+  .Col-right {
+    width: 100%;
+    padding-left: 30px;
+  }
+  .Navbar {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+  }
+  .Content-column {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Col-left h1 {
+    font-size: 48px;
+  }
+  .Col-right h3 {
+    font-size: 24px;
+    line-height: 48px;
+  }
+  .Col-right p {
+    font-size: 14px;
+  }
+  .Navbar .Subtitle {
+    font-size: 18px;
+
+  }
+}
