@@ -19,7 +19,7 @@ function App() {
           <FontAwesomeIcon className="Social-link" icon={faGithub} size="md"/>
           <FontAwesomeIcon className="Social-link" icon={faRss} size="md"/>
           <FontAwesomeIcon className="Social-link" icon={faTwitter} size="md"/>
-          <FontAwesomeIcon className="Social-link" icon={faInstagram} size="md" style={{'marginRight': '0px',}}/>
+          <FontAwesomeIcon className="Social-link" icon={faInstagram} size="md" style={{'marginRight': '0px'}}/>
         </div>
       </div>
       <div className="Body">
